@@ -5,7 +5,7 @@ import asyncio
 from aiogram import Bot, Dispatcher, F
 from aiogram.filters import Command
 from aiogram.types import Message
-API_TOKEN = os.environ.get('6043450746:AAG5WoXNn3TBqacMLvQIdCCuoJBQDQ6uE9Q')
+API_TOKEN = os.environ.get('API_TOKEN')
 APP_NAME = "Fox_Fast_Bot"
 
 bot = Bot(token=API_TOKEN)
